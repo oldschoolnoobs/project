@@ -1,0 +1,615 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+		<title>Bluethrust Clan Website Manager: Clan Scripts v4</title>
+<link rel="stylesheet" type="text/css" href="index_files/jquery-ui-1.css">
+<script type="text/javascript" src="index_files/jquery-1.js"></script>
+<script type="text/javascript" src="index_files/jquery-ui-1.js"></script>
+<link rel="stylesheet" type="text/css" href="index_files/btcs4.css">
+<link rel="stylesheet" type="text/css" href="index_files/style.css">
+<script type="text/javascript" src="index_files/main.js"></script>
+<script type="text/javascript" src="index_files/imageslider.js"></script>
+<link rel="stylesheet" type="text/css" href="index_files/donations.css">
+
+		<script type="text/javascript">
+		
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-11786766-2']);
+		  _gaq.push(['_trackPageview']);
+		
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+		
+		</script>
+		
+	</head>
+	<body>
+	
+		<div class="topLeftGrid"></div>
+		<div class="topRightGrid"></div>
+		<div class="bottomLeftGrid"></div>
+		
+		<div class="wrapper">
+			<div class="headerDiv">
+			
+				<div class="logoDiv">
+					<a href="http://www.bluethrust.com/cs4demo/"><img src="index_files/logo.png"><div class="logoGlow"></div></a>
+				</div>
+				<div class="topMenuDiv"><div class="topMenuGlow"></div>
+				<div id="menuSection_2">
+			<div class="topMenuItem"><a href="http://www.bluethrust.com/cs4demo/news" target="">NEWS</a></div><div class="topMenuItem"><a href="http://www.bluethrust.com/cs4demo/members.php" target="">MEMBERS</a></div><div class="topMenuItem"><a href="http://www.bluethrust.com/cs4demo/tournaments" target="">TOURNAMENTS</a></div><div class="topMenuItem"><a href="http://www.bluethrust.com/cs4demo/squads" target="">SQUADS</a></div><div class="topMenuItem"><a href="http://www.bluethrust.com/cs4demo/events" target="">EVENTS</a></div><div class="topMenuItem"><a href="http://www.bluethrust.com/cs4demo/forum" target="">FORUM</a></div>
+				</div>
+			</div>
+			</div>
+		
+			<div class="bodyDiv">
+				<div class="bodyTopLine"></div>
+				<div class="bodyLeftLine"><div class="bodyGradientLine"></div><div class="bodyGradientLineShadow"></div></div>
+				<div class="bodyRightLine"><div class="bodyGradientLine"></div><div class="bodyGradientLineShadow"></div></div>
+				
+				<div class="bodyCorners bodyLeftCornersSide"></div>
+				<div class="bodyCorners bodyLeftCornersTop"></div>
+				<div class="bodyLeftCornerCover"></div>
+				
+				<div class="bodyCorners bodyRightCornersSide"></div>
+				<div class="bodyCorners bodyRightCornersTop"></div>
+				<div class="bodyRightCornerCover"></div>
+				
+				
+				<div class="leftMenuDiv">
+					
+				<div id="menuSection_0">
+			<div class="menuCatTitle menuCatLeft">MAIN MENU</div><div class="menuItems">
+				<div class="menuLinks" style="text-align: left">
+					<b>&middot</b> <a href="http://www.bluethrust.com/cs4demo/index.php" target="">Home</a>
+				</div>
+			
+				<div class="menuLinks" style="text-align: left">
+					<b>&middot</b> <a href="http://www.bluethrust.com/cs4demo/news" target="">News</a>
+				</div>
+			
+				<div class="menuLinks" style="text-align: left">
+					<b>&middot</b> <a href="http://www.bluethrust.com/cs4demo/members.php" target="">Members</a>
+				</div>
+			
+				<div class="menuLinks" style="text-align: left">
+					<b>&middot</b> <a href="http://www.bluethrust.com/cs4demo/ranks.php" target="">Ranks</a>
+				</div>
+			
+				<div class="menuLinks" style="text-align: left">
+					<b>&middot</b> <a href="http://www.bluethrust.com/cs4demo/squads" target="">Squads</a>
+				</div>
+			
+				<div class="menuLinks" style="text-align: left">
+					<b>&middot</b> <a href="http://www.bluethrust.com/cs4demo/tournaments" target="">Tournaments</a>
+				</div>
+			
+				<div class="menuLinks" style="text-align: left">
+					<b>&middot</b> <a href="http://www.bluethrust.com/cs4demo/events" target="">Events</a>
+				</div>
+			
+				<div class="menuLinks" style="text-align: left">
+					<b>&middot</b> <a href="http://www.bluethrust.com/cs4demo/medals.php" target="">Medals</a>
+				</div>
+			
+				<div class="menuLinks" style="text-align: left">
+					<b>&middot</b> <a href="http://www.bluethrust.com/cs4demo/diplomacy" target="">Diplomacy</a>
+				</div>
+			
+				<div class="menuLinks" style="text-align: left">
+					<b>&middot</b> <a href="http://www.bluethrust.com/cs4demo/diplomacy/request.php" target="">Diplomacy Request</a>
+				</div>
+			
+				<div class="menuLinks" style="text-align: left">
+					<b>&middot</b> <a href="http://www.bluethrust.com/cs4demo/custompage.php?pID=11" target="">History</a>
+				</div>
+			
+				<div class="menuLinks" style="text-align: left">
+					<b>&middot</b> <a href="http://www.bluethrust.com/cs4demo/custompage.php?pID=12" target="">Rules</a>
+				</div>
+			
+				<div class="menuLinks" style="text-align: left">
+					<b>&middot</b> <a href="http://www.bluethrust.com/cs4demo/forum" target="">Forum</a>
+				</div>
+			</div><div class="menuCatTitle menuCatLeft">TOP PLAYERS</div><div class="menuItems">
+				<span class="menuLinks">
+					<b>&middot</b> <a href="http://www.bluethrust.com/cs4demo/top-players/recruiters.php">Recruiters</a>
+				</span><br>
+			
+					<span class="menuLinks">
+						<b>&middot</b> <a href="http://www.bluethrust.com/cs4demo/top-players/game.php?gID=12">Black Ops 2</a>
+					</span><br>
+				
+					<span class="menuLinks">
+						<b>&middot</b> <a href="http://www.bluethrust.com/cs4demo/top-players/game.php?gID=2">Starcraft 2</a>
+					</span><br>
+				
+					<span class="menuLinks">
+						<b>&middot</b> <a href="http://www.bluethrust.com/cs4demo/top-players/game.php?gID=9">World of Warcraft</a>
+					</span><br>
+				
+					<span class="menuLinks">
+						<b>&middot</b> <a href="http://www.bluethrust.com/cs4demo/top-players/game.php?gID=5">Starcraft</a>
+					</span><br>
+				
+					<span class="menuLinks">
+						<b>&middot</b> <a href="http://www.bluethrust.com/cs4demo/top-players/game.php?gID=8">Call of Duty</a>
+					</span><br>
+				
+					<span class="menuLinks">
+						<b>&middot</b> <a href="http://www.bluethrust.com/cs4demo/top-players/game.php?gID=7">Minecraft</a>
+					</span><br>
+				</div><div class="menuCatTitle menuCatLeft">POLL</div><div class="menuItems">
+					<div class="pollMenuDiv">
+						Do you like polls?
+						
+						<div class="pollMenuOptionsDiv">
+							<form action="">
+							
+						<div class="pollMenuOption"><input id="poll_1" name="poll_1" value="1" type="radio"> <label for="poll_1">Yes</label></div>
+						<br>
+					
+						<div class="pollMenuOption"><input id="poll_2" name="poll_1" value="2" type="radio"> <label for="poll_2">No</label></div>
+						<br>
+					
+				
+							<p align="center">
+							
+								<input id="btnPollVote_1" class="submitButton" value="Vote" type="button">
+							
+							</p>
+				
+							<br><p class="main" id="pollResultsLink_1" align="center"><a href="http://www.bluethrust.com/cs4demo/polls/view.php?pID=1">View Results</a></p>
+							
+							</form>
+						</div>
+						<div id="pollDialog_1" style="display: none"></div>
+					</div>
+					
+					<script type="text/javascript">
+						$('#document').ready(function() {
+							$('#btnPollVote_1').click(function() {
+							
+								var objVotes = {};
+								$("input[name='poll_1']").each(function(index) {
+									if($(this).is(':checked')) {
+										
+										objVotes[$(this).attr('id')] = $(this).val();
+										
+									}
+								});
+							
+								$("input[name='poll_1']").attr('checked', false);
+								
+								var jsonVotes = JSON.stringify(objVotes);
+								var dialogHTML = "";
+								$.post('/cs4demo/polls/vote.php', { pollID: '1', pollOptionID: jsonVotes }, function(data) {
+									
+									try {
+										postData = JSON.parse(data);
+										
+										if(postData['result'] == "success") {
+											dialogHTML = "Thank you for voting!";
+																	
+											
+										}
+										else {
+											dialogHTML = "Unable to vote due to the following reason:<br><br>"+postData['errors'];
+										}
+										
+										
+									}
+									catch(err) {
+										dialogHTML = "You do not have permission to vote on this poll.";
+									}
+								
+									$('#pollDialog_1').html("<p align='center' class='main'>"+dialogHTML+"</p>");
+									
+									$('#pollDialog_1').dialog({
+										title: 'Poll',
+										zIndex: 999999,
+										modal: true,
+										show: 'scale',
+										width: 400,
+										resizable: false,
+										buttons: {
+											'Ok': function() {
+												$(this).dialog('close');
+											}
+										}
+									
+									});
+									
+								});
+							});
+						});
+					</script>
+					
+				</div><div class="menuCatTitle menuCatLeft">FORUM ACTIVITY</div><div class="menuItems">
+					<div class="menusForumActivityWrapper">
+				
+						<div class="menusForumActivityItemWrapper dottedLine  alternateBGColor">
+							<div class="menusForumActivityAvatarDiv">
+								<img src="index_files/defaultavatar.png" class="avatarImg ">
+							</div>
+							<div class="menusForumActivityTextWrapper">
+								<div class="menusForumActivityPostTitle">
+									<a href="http://www.bluethrust.com/cs4demo/forum/viewtopic.php?tID=12&amp;pID=2#49">test attachments</a>
+								</div>
+								<div class="menusForumActivityPoster">
+									by <span style="color: #7FFF00"><a href="http://www.bluethrust.com/cs4demo/profile.php?mID=1" style="color: " title="Admin">Admin</a></span>
+								</div><span class="menusForumActivityDate">Sat May 17, 2014 2:36 am</span>
+							</div>
+							<div style="clear: both"></div>
+						</div>
+					
+						<div class="menusForumActivityItemWrapper dottedLine ">
+							<div class="menusForumActivityAvatarDiv">
+								<img src="index_files/defaultavatar.png" class="avatarImg ">
+							</div>
+							<div class="menusForumActivityTextWrapper">
+								<div class="menusForumActivityPostTitle">
+									<a href="http://www.bluethrust.com/cs4demo/forum/viewtopic.php?tID=12&amp;pID=2#48">test attachments</a>
+								</div>
+								<div class="menusForumActivityPoster">
+									by <span style="color: #7FFF00"><a href="http://www.bluethrust.com/cs4demo/profile.php?mID=1" style="color: " title="Admin">Admin</a></span>
+								</div><span class="menusForumActivityDate">Sat May 17, 2014 2:35 am</span>
+							</div>
+							<div style="clear: both"></div>
+						</div>
+					
+						<div class="menusForumActivityItemWrapper dottedLine  alternateBGColor">
+							<div class="menusForumActivityAvatarDiv">
+								<img src="index_files/defaultavatar.png" class="avatarImg ">
+							</div>
+							<div class="menusForumActivityTextWrapper">
+								<div class="menusForumActivityPostTitle">
+									<a href="http://www.bluethrust.com/cs4demo/forum/viewtopic.php?tID=12&amp;pID=1#47">test attachments</a>
+								</div>
+								<div class="menusForumActivityPoster">
+									by <span style="color: #7FFF00"><a href="http://www.bluethrust.com/cs4demo/profile.php?mID=1" style="color: " title="Admin">Admin</a></span>
+								</div><span class="menusForumActivityDate">Sat May 17, 2014 2:35 am</span>
+							</div>
+							<div style="clear: both"></div>
+						</div>
+					
+						<div class="menusForumActivityItemWrapper dottedLine ">
+							<div class="menusForumActivityAvatarDiv">
+								<img src="index_files/defaultavatar.png" class="avatarImg ">
+							</div>
+							<div class="menusForumActivityTextWrapper">
+								<div class="menusForumActivityPostTitle">
+									<a href="http://www.bluethrust.com/cs4demo/forum/viewtopic.php?tID=20#46">test post</a>
+								</div>
+								<div class="menusForumActivityPoster">
+									by <span style="color: #7FFF00"><a href="http://www.bluethrust.com/cs4demo/profile.php?mID=1" style="color: " title="Admin">Admin</a></span>
+								</div><span class="menusForumActivityDate">Fri Apr 18, 2014 6:13 pm</span>
+							</div>
+							<div style="clear: both"></div>
+						</div>
+					
+						<div class="menusForumActivityItemWrapper dottedLine  alternateBGColor">
+							<div class="menusForumActivityAvatarDiv">
+								<img src="index_files/defaultavatar.png" class="avatarImg ">
+							</div>
+							<div class="menusForumActivityTextWrapper">
+								<div class="menusForumActivityPostTitle">
+									<a href="http://www.bluethrust.com/cs4demo/forum/viewtopic.php?tID=22#45">Test Attachment</a>
+								</div>
+								<div class="menusForumActivityPoster">
+									by <span style="color: #7FFF00"><a href="http://www.bluethrust.com/cs4demo/profile.php?mID=1" style="color: " title="Admin">Admin</a></span>
+								</div><span class="menusForumActivityDate">Wed Apr 16, 2014 3:28 pm</span>
+							</div>
+							<div style="clear: both"></div>
+						</div>
+					
+					</div>
+				</div>
+				</div>
+							
+				</div>
+				<div class="rightMenuDiv">
+					
+				<div id="menuSection_1">
+			<div class="menuCatTitle menuCatRight">LOGGED IN</div><div class="menuItems">
+			
+				<div class="loggedInSection">
+					<b>Account Name:</b><br>
+					<p><span style="color: #7FFF00"><a href="http://www.bluethrust.com/cs4demo/profile.php?mID=1" style="color: " title="Admin">Admin</a></span></p>
+					<div class="dottedLine" style="margin: 5px 0px"></div>
+					<b>Rank:</b>
+					<p>Administrator</p>
+					<div class="dottedLine" style="margin: 5px 0px"></div>
+					<b>Member Options:</b><br>
+					<ul class="loggedInMenuList">
+						<li><a href="http://www.bluethrust.com/cs4demo/members">My Account</a></li>
+						<li><a href="http://www.bluethrust.com/cs4demo/members/console.php?cID=78" id="pmLoggedInLink">PM Inbox (0)</a></li>
+						<li><a href="http://www.bluethrust.com/cs4demo/members/signout.php">Sign Out</a></li>
+					</ul>
+				</div>
+			
+			</div><div class="menuCatTitle menuCatRight">NEWEST MEMBERS</div><div class="menuItems">
+					<div class="menusNewestMembersWrapper">
+				
+						<div class="menusNewestMembersItemWrapper dottedLine  alternateBGColor">
+							<div class="menusNewestMembersAvatarDiv">
+								<img src="index_files/defaultprofile.png">
+							</div>
+							<div class="menusNewestMembersTextWrapper">
+								<div class="menusNewestMembersName">
+									<span style="color: #ffffff"><a href="http://www.bluethrust.com/cs4demo/profile.php?mID=64" style="color: #63940D" title="homerun31">homerun31</a></span>
+								</div>
+								<div class="menusNewestMembersRank">
+									Master Sergeant
+								</div>
+							</div>
+							<div style="clear: both"></div>
+						</div>
+					
+						<div class="menusNewestMembersItemWrapper dottedLine ">
+							<div class="menusNewestMembersAvatarDiv">
+								<img src="index_files/defaultprofile.png">
+							</div>
+							<div class="menusNewestMembersTextWrapper">
+								<div class="menusNewestMembersName">
+									<span style="color: #ffffff"><a href="http://www.bluethrust.com/cs4demo/profile.php?mID=63" style="color: #8F0051" title="TestMember8">TestMember8</a></span>
+								</div>
+								<div class="menusNewestMembersRank">
+									General
+								</div>
+							</div>
+							<div style="clear: both"></div>
+						</div>
+					
+						<div class="menusNewestMembersItemWrapper dottedLine  alternateBGColor">
+							<div class="menusNewestMembersAvatarDiv">
+								<img src="index_files/defaultprofile.png">
+							</div>
+							<div class="menusNewestMembersTextWrapper">
+								<div class="menusNewestMembersName">
+									<span style="color: #ffffff"><a href="http://www.bluethrust.com/cs4demo/profile.php?mID=62" style="color: #63940D" title="tsetdff">tsetdff</a></span>
+								</div>
+								<div class="menusNewestMembersRank">
+									Sergeant Major
+								</div>
+							</div>
+							<div style="clear: both"></div>
+						</div>
+					
+						<div class="menusNewestMembersItemWrapper dottedLine ">
+							<div class="menusNewestMembersAvatarDiv">
+								<img src="index_files/defaultprofile.png">
+							</div>
+							<div class="menusNewestMembersTextWrapper">
+								<div class="menusNewestMembersName">
+									<span style="color: #ffffff"><a href="http://www.bluethrust.com/cs4demo/profile.php?mID=61" style="color: #63940D" title="testuser22">testuser22</a></span>
+								</div>
+								<div class="menusNewestMembersRank">
+									Sergeant Major
+								</div>
+							</div>
+							<div style="clear: both"></div>
+						</div>
+					
+						<div class="menusNewestMembersItemWrapper dottedLine  alternateBGColor">
+							<div class="menusNewestMembersAvatarDiv">
+								<img src="index_files/defaultprofile.png">
+							</div>
+							<div class="menusNewestMembersTextWrapper">
+								<div class="menusNewestMembersName">
+									<span style="color: #ffffff"><a href="http://www.bluethrust.com/cs4demo/profile.php?mID=42" style="color: #A10000" title="TestCommander">TestCommander</a></span>
+								</div>
+								<div class="menusNewestMembersRank">
+									Commander
+								</div>
+							</div>
+							<div style="clear: both"></div>
+						</div>
+					
+					</div>
+				</div><div class="menuCatTitle menuCatRight">SHOUTBOX</div><div class="menuItems"><div class="shoutBox" id="mainShoutBox_53bdb03426170" style="width: 140px; height: 400px">
+					<b><span style="color: #7FFF00"><a href="http://www.bluethrust.com/cs4demo/profile.php?mID=1" style="color: " title="Admin">Admin</a></span>:</b><br>
+					<div style="word-wrap: break-word;">hello</div>
+					<p style="font-size: 9px" align="center"><br>Sun Jan 19, 2014 9:40 pm</p>
+					<p align="center"><span class="loadingSpiral" id="mainShoutBox_53bdb03426170_loading_2"><img src="index_files/loading-spiral2.gif" height="30" width="30"></span><span class="tinyFont" id="mainShoutBox_53bdb03426170_manage_2"><br><b><a href="http://www.bluethrust.com/cs4demo/members/console.php?cID=83&amp;newsID=2">EDIT</a> - <a href="javascript:void(0)" onclick="deleteShoutbox('2', '/cs4demo/members/include/news/include/deleteshoutpost.php', 'mainShoutBox_53bdb03426170')">DELETE</a></b></span></p>
+					<div class="dottedLine" style="margin: 5px 0px"></div>
+				</div>
+			<div class="shoutBoxPost" style="text-align: center; width: 100%" id="mainShoutBox_53bdb03426170_postShoutbox">
+				<div style="margin-left: auto; margin-right: auto; width: 130px">
+					<textarea class="textBox" rows="1" style="margin-left: auto; margin-right: auto; width: 100%; height: 25px" id="mainShoutBox_53bdb03426170_message"></textarea>
+					<p style="margin-right: -3px; padding-top: 1px; margin-top: 3px" align="right"><input class="submitButton" value="POST" onclick="postShoutbox('mainShoutBox_53bdb03426170', '/cs4demo/members/include/news/include/postshoutbox.php')" style="padding: 5px" type="button"></p>
+				</div>
+			</div>
+		
+			<script type="text/javascript">
+							
+				$(document).ready(function() {
+						$('#mainShoutBox_53bdb03426170').animate({
+							scrollTop:$('#mainShoutBox_53bdb03426170')[0].scrollHeight
+						}, 1000);
+					
+		
+					$('#mainShoutBox_53bdb03426170_message').keypress(function(eventObj) {
+						if(eventObj.which == 13) {
+							if($('#mainShoutBox_53bdb03426170_message').val() != "") {
+								$('#mainShoutBox_53bdb03426170_postShoutbox input[type=button]').click();
+							}
+							return false;
+						}
+						else {
+							return true;
+						}
+					});					
+				
+				
+				});
+			
+			</script>
+		
+		</div>
+				</div>
+							</div>
+				<div class="centerContentDiv">
+				
+			<div class="clocksDiv main">
+				<div class="formTitle">Tuesday, February 12, 2019</div>
+				<p align="center">
+					<span style="color: #00FF09">Eastern: <span id="clock_1">5:13 PM</span></span> || <span style="color: #FFCC00">Central: <span id="clock_2">4:13 PM</span></span> || <span style="color: #6B57FF">Mountain: <span id="clock_3">3:13 PM</span></span> || <span style="color: #FF6600">Pacific: <span id="clock_4">2:13 PM</span></span>
+				
+					<script type="text/javascript">
+				
+						displayClock('', 17, 12, 'clock_1');
+				displayClock('', 16, 12, 'clock_2');
+				displayClock('', 15, 12, 'clock_3');
+				displayClock('', 14, 12, 'clock_4');
+				
+					
+					</script>
+				
+				</p>
+			</div>
+		
+	
+
+			<div id="hpNewsTicker">
+			
+				<marquee scrollamount="3" style="height: 19px;"><div id="tickerSpan" style="; color: #FFFFFF;; font-size: 14px; height: 14px; position: relative; margin-left: auto; margin-right: auto;">Welcome to the Site!</div></marquee>
+			
+			</div>
+			
+			
+		
+	<div id="hpImageSliderWrapper" style="text-align: center; position: relative; margin-left: auto; margin-right: auto">
+			
+				
+				<div id="hpImageScroller"><div class="hp_imgScrollContainer" style="width: 600px; height: 400px"><div id="mainHPScroller_IS0" class="hp_imagescroller" style="display: block;"><a href="http://bluethrust.com/plans" target=""><div class="hp_imageScrollerOverlay"><div class="hp_imageScrollerOverlayTitle">Clan Hosting</div><div class="hp_imageScrollerOverlayMessage">Check out our web hosting packages!</div></div><div style="background: url('images/homepage/hpimage_53bdb02881a14.png'); width: 600px; height: 400px"></div></a></div><div style="display: none;" id="mainHPScroller_IS1" class="hp_imagescroller"><a href="http://www.bluethrust.com/forum" target=""><div class="hp_imageScrollerOverlay"><div class="hp_imageScrollerOverlayTitle">Need Help?</div><div class="hp_imageScrollerOverlayMessage">Have a question or found a bug?  Check out the support forums!</div></div><img src="index_files/hpimage_52c68b3c9dc65.png" style="width: 600px; height: 400px"></a></div><div style="display: none;" id="mainHPScroller_IS2" class="hp_imagescroller"><a href="http://www.bluethrust.com/download.php" target=""><div class="hp_imageScrollerOverlay"><div class="hp_imageScrollerOverlayTitle">Download v4</div><div class="hp_imageScrollerOverlayMessage">Download the latest version!</div></div><img src="index_files/hpimage_52c68b73001ac.png" style="width: 600px; height: 400px"></a></div></div><div class="hp_dotsContainer" style="width: 600px"><div class="hp_imgScrollerDot" data-prefix="mainHPScroller" id="mainHPScroller_dot_0" style="left: 259px; display: none;"><img src="index_files/imagescroller.png"></div><div class="hp_imgScrollerDot" data-prefix="mainHPScroller" id="mainHPScroller_dot_0_hover" style="left: 259px; display: block;"><img src="index_files/imagescroller_hover.png"></div><div class="hp_imgScrollerDot" data-prefix="mainHPScroller" id="mainHPScroller_dot_1" style="left: 293px; display: block;"><img src="index_files/imagescroller.png"></div><div class="hp_imgScrollerDot" data-prefix="mainHPScroller" id="mainHPScroller_dot_1_hover" style="left: 293px; display: none;"><img src="index_files/imagescroller_hover.png"></div><div class="hp_imgScrollerDot" data-prefix="mainHPScroller" id="mainHPScroller_dot_2" style="left: 327px; display: block;"><img src="index_files/imagescroller.png"></div><div class="hp_imgScrollerDot" data-prefix="mainHPScroller" id="mainHPScroller_dot_2_hover" style="left: 327px; display: none;"><img src="index_files/imagescroller_hover.png"></div></div></div>
+			
+				<script type="text/javascript">
+					$('#hpImageScroller').imageslider({
+						'DivPrefix': 'mainHPScroller',
+						'Images': ['images/hpimage_53bdb02881a14.png','images/hpimage_52c68b3c9dc65.png','images/hpimage_52c68b73001ac.png'],
+						'Links': ['http://bluethrust.com/plans','http://www.bluethrust.com/forum','http://www.bluethrust.com/download.php'],
+						'LinkTarget': ['','',''],
+						'ImageWidth': [600,600,600],
+						'ImageHeight': [400,400,400],
+						'ImageWidthUnit': ['px','px','px'],
+						'ImageHeightUnit': ['px','px','px'],
+						'ImageFillStretch': ['fill','stretch','stretch'],
+						'ImageTitle': ['Clan Hosting','Need Help?','Download v4'],
+						'ImageDescription': ['Check out our web hosting packages!','Have a question or found a bug?  Check out the support forums!','Download the latest version!'],
+						'DotImage': 'index_files/images/imagescroller.png',
+						'DotImageHover': 'index_files/images/imagescroller_hover.png',
+						'TotalImages': '2',
+						'SwitchDelay': '8000',
+						'ContainerWidth': '600',
+						'ContainerHeight': '400',
+						'ContainerWidthUnit': 'px',
+						'ContainerHeightUnit': 'px'
+					});
+				</script>
+				
+				
+	</div>
+		
+	<p class="main" style="font-size: 18px; font-weight: bold; padding-left: 15px">Latest News</p>		
+			<div class="newsDiv" id="newsDiv_12">
+				<div class="postInfo">
+					<div id="newsPostAvatar" style="float: left"><img src="index_files/defaultavatar.png" class="avatarImg"></div>
+					<div id="newsPostInfo" style="float: left; margin-left: 15px">posted by <span style="color: #7FFF00"><a href="http://www.bluethrust.com/cs4demo/profile.php?mID=1" style="color: " title="Admin">Admin</a></span> - Sun Apr 13, 2014 6:25 pm - <span class="publicNewsColor" style="font-style: italic">public</span><br>
+					<span class="subjectText">Test News Post</span></div>
+				</div>
+				<br>
+				<div class="dottedLine" style="margin-top: 5px"></div>
+				<div class="postMessage">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam 
+quis dolor quam. Mauris ipsum magna, suscipit at lectus sit amet, tempor
+ faucibus tortor. Aliquam congue nisi non arcu suscipit malesuada. Nulla
+ sed dolor eget erat consequat ornare sit amet a arcu. Vestibulum 
+facilisis tempor sem et vehicula. Mauris ut quam ut arcu iaculis 
+sodales. Vestibulum auctor non purus sit amet tempus. Curabitur sit amet
+ auctor felis. Nam nec imperdiet purus. Sed in justo at ipsum faucibus 
+hendrerit sit amet id elit. Quisque feugiat sit amet est sed varius. 
+Praesent facilisis sem lectus. Nunc facilisis ornare lectus, porta 
+interdum sapien ultrices non. Phasellus tortor leo, tincidunt in luctus 
+at, varius ac velit. Phasellus nibh dui, lobortis non orci ac, dignissim
+ tincidunt tortor. Sed eleifend augue sollicitudin scelerisque dapibus. 
+				</div>
+				<div class="dottedLine" style="margin-top: 5px; margin-bottom: 5px"></div>
+				<div class="main" style="margin-top: 0px; margin-bottom: 10px; padding-left: 5px"></div>
+				<p style="padding: 0px; margin: 0px" align="right"><b><a href="http://www.bluethrust.com/cs4demo/news/viewpost.php?nID=12#comments">Comments (0)</a></b></p>
+			</div>
+		
+		
+		
+		
+<div>
+
+<table class="formTable" style="width: 65%; margin-left: auto; margin-right: auto; border-spacing: 0px" align="center">
+	<tbody><tr>
+		<td class="formTitle" align="center">Members Online Statistics</td>
+	</tr>
+	<tr>
+		<td class="main solidBox" style="border-top-width: 0px" align="center">
+			<b>Members Online:</b> 0<br>
+			<p>
+				
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="main solidBox" style="border-top-width: 0px" align="center">
+<p><span style="color: #A10000"><b>0</b> Commanders</span>, <span style="color: #C40700"><b>0</b> Co-Commanders</span>, <span style="color: #8F0051"><b>0</b> Generals</span>, <span style="color: #035200"><b>0</b> Officers</span>, <span style="color: #469446"><b>0</b> Warrant Officers</span>, <span style="color: #63940D"><b>0</b> Enlisted</span></p>
+		</td>
+	</tr>
+</tbody></table>
+<table class="formTable" style="width: 65%; margin-left: auto; margin-right: auto; border-spacing: 0px" align="center">
+	<tbody><tr>
+		<td class="formTitle" align="center">Website Statistics</td>
+	</tr><tr>
+		<td class="main solidBox" style="border-top-width: 0px" align="center">
+			<p>
+				<b>Most Members Online:</b> 2 - Sun Mar 3, 2013 3:14 am<br><br>
+				<b>Total Page Views:</b> 29803<br>
+				<b>Total Unique Views:</b> 3001<br><br>
+				You have viewed this site <b>107</b> times.<br><br>
+				Your last visit was 2 minutes ago.
+			</p>
+		</td>
+	</tr>
+</tbody></table>
+
+</div>
+<br><br>
+
+	<!-- 5.3.10-1ubuntu3.11 -->			</div>
+			<div style="clear: both"></div>
+		</div>
+		<div class="push"></div>
+	</div>
+	<div class="footerDiv">
+		
+				Powered By: <a href="http://bluethrust.com/" target="_blank">Bluethrust Clan Scripts v4</a> - <a href="http://bluethrust.com/themes" target="_blank">Blue Grid Theme</a><br>
+				&copy; Copyright 2019 Bluethrust Clan Website Manager: Clan Scripts v4	</div>
+	
+		<div id="notificationDiv"></div>
+	
+	<div id="toolTip"></div>
+	<div id="toolTipWidth"></div>
+	
+	
+		
+	
+	<div id="refreshMenusDiv" style="display: none"></div>
+		
+					<audio id="notificationSound">
+				
+						<source src="index_files/notification_002.htm">
+						<source src="index_files/notification.htm">
+					
+					</audio>
+									
+	
+</body></html>
